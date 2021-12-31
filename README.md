@@ -42,7 +42,11 @@ reposiblity : {
 ```
 {
     workingMouth : [mouth],
-    ta : [reposiblity],
+    ta : {
+    	name: String,
+	studentID : String,
+	reposiblity : [reposiblity]
+    },
     rate : double
 }
 ```
