@@ -9,7 +9,7 @@ setInterval(() => {
 </script>
 
 <template>
-  <div>
+  <div class="bg-emerald-100">
     <main>
       <router-view />
     </main>
